@@ -1,0 +1,11 @@
+insert into ACCOUNT_MASTER (account_number,total_balance) values ('abc',100)
+insert into accountname (account_id ,transaction_type,transaction_amount,date_time ) values ('abc','deposit',100,TO_TIMESTAMP('2014-07-02 06:14:00.742000000', 'YYYY-MM-DD HH24:MI:SS.FF'))
+insert into accountname (account_id ,transaction_type,transaction_amount,date_time ) values ('abc','withdrawal',20,TO_TIMESTAMP('2014-07-05 06:14:00.742000000', 'YYYY-MM-DD HH24:MI:SS.FF'))
+insert into accountname (account_id ,transaction_type,transaction_amount,date_time ) values ('abc','deposit',96,TO_TIMESTAMP('2014-07-03 06:14:00.742000000', 'YYYY-MM-DD HH24:MI:SS.FF'))
+insert into accountname (account_id ,transaction_type,transaction_amount,date_time ) values ('abc','withdrawal',10,TO_TIMESTAMP('2014-07-06 06:14:00.742000000', 'YYYY-MM-DD HH24:MI:SS.FF'))
+
+insert into ACCOUNT_MASTER (account_number,total_balance) values ('efg',700)
+insert into accountname (account_id ,transaction_type,transaction_amount,date_time ) values ('efg','deposit',700,TO_TIMESTAMP('2014-07-04 06:14:00.742000000', 'YYYY-MM-DD HH24:MI:SS.FF'))
+insert into accountname (account_id ,transaction_type,transaction_amount,date_time ) values ('efg','withdrawal',10,TO_TIMESTAMP('2014-07-10 06:14:00.742000000', 'YYYY-MM-DD HH24:MI:SS.FF'))
+insert into accountname (account_id ,transaction_type,transaction_amount,date_time ) values ('efg','deposit',70,TO_TIMESTAMP('2014-07-04 06:14:00.742000000', 'YYYY-MM-DD HH24:MI:SS.FF'))
+insert into accountname (account_id ,transaction_type,transaction_amount,date_time ) values ('efg','withdrawal',10,TO_TIMESTAMP('2014-07-12 06:14:00.742000000', 'YYYY-MM-DD HH24:MI:SS.FF'))
